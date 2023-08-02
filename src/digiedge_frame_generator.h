@@ -49,7 +49,7 @@ typedef struct Header Header;
 Base* AddElementToArray(Base* array, uint16_t size, Base element);
 void Header_init(Header *header, byte* devAddVal, byte* devEuiVal,byte* appEuiVal,byte devAddType = DEV_ADD_TYPE, byte devEuiType = DEV_EUI_TYPE,
                  byte appEuiType = APP_EUI_TYPE);
-byte* SendPayload(float payload_, const Header& header) ;
+byte* GenerateFrame(float payload_, const Header& header) ;
 byte* CaclulateHeaderSize(const Header header);
 byte* CalculatePayloadSize(const byte* payload, uint16_t size_);
 void AppendInHeader(Header* header, byte type, byte* value, byte size);
