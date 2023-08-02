@@ -38,7 +38,7 @@ void setup() {
   //then Send the Payload 
    float data = 12.10f;
    uint16_t n  = frame_size(data, header); 
-   byte * f = SendPayload(data, header);
+   byte * f = GenerateFrame(data, header);
    for(int i = 0; i<n;i++){
       Serial.print(f[i], HEX);Serial.print(" ");
    }
