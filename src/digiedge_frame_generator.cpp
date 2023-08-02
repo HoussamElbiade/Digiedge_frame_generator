@@ -142,7 +142,7 @@ byte* floatToByteArray(float number)
     return byteArray;
 }
 
-byte* SendPayload(float payload_, const Header& header) {
+byte* GenerateFrame(float payload_, const Header& header) {
     byte* payload = floatToByteArray(payload_);
     uint16_t FrameSize = frame_size(payload_, header);
     byte* frame = new byte[FrameSize];
