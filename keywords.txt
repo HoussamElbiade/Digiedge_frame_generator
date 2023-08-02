@@ -1,0 +1,31 @@
+# Syntax Coloring Map For YourLibraryName
+
+# Datatypes (KEYWORD1)
+byte    KEYWORD1
+uint16_t    KEYWORD1
+float   KEYWORD1
+Base    KEYWORD1
+Header  KEYWORD1
+
+# Constants (LITERAL1)
+SFD LITERAL1
+EOF_MSB LITERAL1
+EOF_LSB LITERAL1
+RSSI_TYPE LITERAL1
+BATTERY_TYPE LITERAL1
+DEV_ADD_TYPE LITERAL1
+DEV_EUI_TYPE LITERAL1
+APP_EUI_TYPE LITERAL1
+
+# Methods and Functions (KEYWORD2)
+AddElementToArray KEYWORD2
+Header_init KEYWORD2
+SendPayload KEYWORD2
+CaclulateHeaderSize KEYWORD2
+CalculatePayloadSize KEYWORD2
+AppendInHeader KEYWORD2
+calculateCRC8 KEYWORD2
+CalculateSize KEYWORD2
+frame_size KEYWORD2
+floatToByteArray KEYWORD2
+byteArrayToUint16 KEYWORD2
