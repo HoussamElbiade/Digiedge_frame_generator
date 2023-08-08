@@ -20,7 +20,7 @@ APP_EUI_TYPE LITERAL1
 # Methods and Functions (KEYWORD2)
 AddElementToArray KEYWORD2
 Header_init KEYWORD2
-SendPayload KEYWORD2
+GenerateFrame KEYWORD2
 CaclulateHeaderSize KEYWORD2
 CalculatePayloadSize KEYWORD2
 AppendInHeader KEYWORD2
